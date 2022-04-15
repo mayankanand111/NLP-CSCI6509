@@ -1,0 +1,4 @@
+isChild(ann,mary).
+isGrandChild(ann,mary).
+isGrandChild(X,mary).
+isGrandChild(tom,Y).
