@@ -1,0 +1,80 @@
+
+File: a1q2.pl Author: Mayank Anand
+Solution to question 2 of assignment 1, CSCI 6509 Fall 2021
+--------------------------------
+2.a) Levels of NLP are:
+--------------------------------
+1. Phonetics- 
+
+Phonetics is study of sound that we make when we talk. It focuses on the way sound is produced. We mainly do speech generation and analysis as part this level.
+
+2. Phonology-
+
+Phonology is concerned with phonemes. Phonemes are individual units in speech that differs in different languages. In this we mainly build dictionary of sounds and homophones in language.
+
+3. Morphology-
+
+Morphology is the domain of linguistic which anlayzes internal structure of words. According to classical approach words are formed of morphemes. Morphemes are minimal linguistic units that carry meaning.
+
+We have mainly three morphological process
+	a) Inflection- Combination of a word stem with a grammatical morpheme, usually resulting a word of same class. example: cold, colder, coldest.
+	b) Derivation- Combination of a word stem with a grammatical morpheme, usually resulting in word of different class. example: organize + ation -> organization.
+	c) Compounding- Compounding is is using two or more words (typically nouns) together to form a new meaning. example: Dark + Room -> Darkroom.
+
+4. Syntax-
+
+It deals with sentence structure and grammatical arrangement of words in sentence. In this we mainly do parsing which is used to produce parse trees for a given sentence as input. These parse trees can be of various types like:
+ 	a) Context-free parse trees 
+  	b) dependency parse trees
+
+5. Semantic- 
+
+Semantic analysis is like finding meaning of text upto sentence level. We have formal semantics which deals with logical meaning of sentence and lexical semantics studies the word and their relation.
+
+6. Pragmatics-
+
+In this we are mainly concerned with context of language. Deals with practical and intended meaning of language. For example: Allan saw Rachel in garden with cat. So in this example we cannot say that whether Allan is with cat or Rachel is with cat.
+
+7. Discourse-
+
+In this we are mainly concerned with language beyond sentence level, for example inter-sentence relations, document structure and references.
+
+-----------------------------------------
+2.b)
+-----------------------------------------
+
+For the past decade the whole tech industry is running towards analyzing user voice inputs in order to solve their day today queries. Because of which there is a huge competition among all big tech giants for scaling a voice assistant which is capable of understanding user queries and fetch them the desired result. For example Alexa is the voice assistant by the tech firm Amazon which can understand user voice inputs and fetch them the desired output in the form of text, audio, or visual.
+
+Natural Language processing and Natural language understanding is used in these voice assistants like Alexa. Below we will find how processing done at Phonetics, Phonology and Discourse level can be used in Alexa.
+
+1. How processing in Phonetics level can be used in voice assistant such as Alexa?
+	
+Phonetics is about studying the sounds we make when we talk. It concentrates on the way sound is produced, how and why it sound like and also compare with each other. In Alexa we can use various phonetics to distinguish between the words that the user have inputted using voice input and those various phonetics classification are-
+
+a) Acoustic Phonetics - deals with sounds produce using vocal organs.
+b) Auditory phonetics - deals with reception of speech.
+c) Articulatory phonetics - deals with sounds produced with movement of various parts of vocal tract.
+
+So we can classify what user have said in classifications explained above with which it will be much easier to process and can help yielding the actual meaning of the word.
+
+Consider the following example: 
+I) do not talk aloud. Aloud [noisily] 
+II) they were allowed to go out. Allowed [permitted]. 
+The first step towards phonetically identifying the language would be to build the dictionary of homophones. Further the dictionary should hold the corresponding meaning of each word and the related phoneme. Having a dictionary of homophones can be very useful for speech recognition in voice assistants. 
+
+2. How processing at phonology is used in voice assistants such as Alexa?
+
+Phonology is concerned with phonemes. Phonemes are the individual unit of speech which differs within each language. which can be used for sound recognition like for example with user input we can detect which language user is communicating in with the help of phonemes. 
+
+3. How processing at discourse level is used in voice assistants such as Alexa?
+
+In this level we mainly focus on language beyond sentence level and their interdependency which is heavily used in voice assistants. As, assistant can keep track of the context of the talk.
+For example:
+
+User asked "What is the weather like?" so Alexa processes this sentence and will fetch results for the user for the current day. But in backend Alexa will fetch weather for let us say whole week. As in case user if next user asks "What will be the weather tomorrow?" Alexa will not have to fetch details for that sentence again as it has already fetched in first call.
+
+---------------------------------------------------------------------
+References:
+http://ijiset.com/v1s3/IJISET_V1_I3_92.pdf
+https://web.cs.dal.ca/~vlado/csci6509/files/nlp01.pdf
+   
